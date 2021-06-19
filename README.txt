@@ -1,0 +1,1 @@
+CRUD application built by Javascript. Will practise Javascript and libraries such as Node.js, Express, NPM, EJS to create its application. I also use GIT as a version control to commit codes
