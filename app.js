@@ -2,11 +2,12 @@
 
 const express = require('express');
 const app = express();
-// console.dir(app)
+// Comment: if you are curious about JSobject in side of Express - you can do console.dir(app) here.
 const path = require('path');
 
 app.set('view engine', 'ejs');
-app.set('views', path.join)
+// Comment: __dirname takes the Current directory name then we will joining the path with '/views'
+app.set('views', path.join(__dirname,'views'))
 
 
 // Comment: check if the port is running at the very first (good habit)
